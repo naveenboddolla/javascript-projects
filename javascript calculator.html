@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    function calculator()
+    {
+        var x,y,z;
+        x=document.getElementById("first").value;
+        y=document.getElementById("second").value;
+        z = x-y;
+        document.getElementById("result").value=z;
+    }
+</script>
+<body>
+<h2>First Variable</h2>
+<input type="number" id="first"/>
+<h2>Second Variable</h2>
+<input type="number" id="second"/>
+<h2>Result</h2>
+<input type="number" id="result"/>
+<input type="submit"  onclick="calculator()" value="register"/>
+</body>
+</html>
